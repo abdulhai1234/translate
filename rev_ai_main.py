@@ -1,24 +1,13 @@
 import speech_recognition as sr
-import pyttsx3
 import soundfile as sf
 import numpy as np
 from googletrans import Translator
-import pyttsx3
+
 from gtts import gTTS
-import threading
-import os
 from rev_ai import apiclient as api
-from rev_ai.models import MediaConfig, CustomVocabulary
-from rev_ai.models.customer_url_data import CustomerUrlData
-import argparse
-import whisper
 import warnings 
-from typing import IO
 import re
 warnings.filterwarnings('ignore')
-import asyncio
-import time
-from time import sleep
 
 def translate(text, sr='en', des='ur'):
     translator=  Translator(service_urls=['translate.googleapis.com'])

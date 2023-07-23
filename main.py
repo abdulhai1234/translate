@@ -1,13 +1,8 @@
 import streamlit as st
 import numpy as np
 from rev_ai import apiclient as api
-# from models.rev_ai import RevAI
-
-# from streamlit.rev_ai import 
 import os
-
 from rev_ai_main import RevAI
-import time
 from dotenv import load_dotenv
 load_dotenv()
 
