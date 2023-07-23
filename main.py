@@ -7,7 +7,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-token=st.secrets["token"]
+# token=st.secrets["token"]
+token="02Er_glaYWkaMWDFikBYpIlMW0iplasvjfKZeJKi8xO5eoubYfkkb3oWydRFvIkeC4zeofQsvnsV02GeLpfw46nJWKgCc"
 
 import sys
 sys.path.append(r'D:\amjid\Translation\models')
