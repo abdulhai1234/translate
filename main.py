@@ -1,5 +1,4 @@
 import streamlit as st
-from scipy.io import wavfile
 import numpy as np
 from rev_ai import apiclient as api
 # from models.rev_ai import RevAI
@@ -14,6 +13,7 @@ load_dotenv()
 
 
 # token = os.environ.get("token")
+token=st.secrets["token"]
 
 
 import sys
