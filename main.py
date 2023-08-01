@@ -30,7 +30,7 @@ output_language = st.selectbox("Output Language", list(languages.keys()),1)
 input_language_code = languages[input_language]
 output_language_code = languages[output_language]
 
-uploaded_file = st.file_uploader("Choose an audio file", type=["wav","mp3"])
+uploaded_file = st.file_uploader("Choose an audio file", type=["wav","mp3","ogg"])
 
 if uploaded_file is None:
     st.warning("Please upload a file")
